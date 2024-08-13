@@ -1,3 +1,9 @@
+/**
+ * Service layer for managing {@link Product} entities.
+ * This class provides methods for performing CRUD operations on products, including adding,
+ * retrieving, updating, and deleting products. It uses {@link ProductDB} for database interactions.
+ */
+
 package com.example.ProductSpring;
 
 import jakarta.transaction.Transactional;

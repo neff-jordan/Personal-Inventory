@@ -1,3 +1,9 @@
+/**
+ * Represents a product entity in the inventory system.
+ * This class is mapped to a database table using JPA (Jakarta Persistence API).
+ * The product entity contains information about the product's name, type, location, and quantity.
+ */
+
 package com.example.ProductSpring;
 
 import jakarta.persistence.Entity;
@@ -15,8 +21,14 @@ public class Product {
     private String location;
     private int quantity;
 
-
-
+    /**
+     * Constructs a new Product with the specified details.
+     *
+     * @param name     the name of the product
+     * @param type     the type or category of the product
+     * @param location the storage location of the product
+     * @param quantity the quantity of the product in stock
+     */
     public Product(String name, String type, String location, int quantity) {
         this.name = name;
         this.type = type;

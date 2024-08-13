@@ -1,3 +1,10 @@
+/**
+ * Entry point for the Spring Boot application that manages a personal inventory of products.
+ * This class initializes the Spring context, provides a menu-driven command-line interface
+ * for interacting with the {@link ProductService}, and handles user input for various
+ * operations such as adding, listing, updating, and deleting products.
+ */
+
 package com.example.ProductSpring;
 
 import jakarta.transaction.Transactional;
@@ -16,7 +23,7 @@ public class ProductSpringApplication {
 
 
 		System.out.println("--------------------------------------------");
-		System.out.println("Welcome to your Personal Inventory Database");
+		System.out.println("Welcome to your Personal Inventory!");
 		System.out.println("--------------------------------------------");
 
 		boolean conditionCheck = true;
