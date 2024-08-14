@@ -1,5 +1,7 @@
 # Personal-Inventory-System
 
+https://youtu.be/NkBU4ECGWLI 
+
 ## Overview
 The Personal Inventory Management System is a Spring Boot application designed to manage a personal inventory of products. It provides a command-line interface (CLI) for users to add, list, update, and delete products from the inventory. This project uses Spring Boot for backend services and a PostgreSQL database for data persistence.
 
